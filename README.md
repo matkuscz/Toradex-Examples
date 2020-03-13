@@ -6,9 +6,8 @@ Boot z SD Karty:
 - zastavit uboot
 - ```run distro_bootcmd```
 - bacha muze to podelat bootcmd, cili tady je puvodni:
-``` bootcmd=run sdboot; echo; echo sdboot failed; run emmcboot; echo; echo emmcboot failed; run distro_bootcmd; usb start; setenv stdout se
-rial,vga; setenv stdin serial,usbkbd
-  ```
+```bootcmd=run sdboot; echo; echo sdboot failed; run emmcboot; echo; echo emmcboot failed; run distro_bootcmd; usb start; setenv stdout se
+rial,vga; setenv stdin serial,usbkbd```
 - celej originalni environment
 ```
 arch=arm
