@@ -4,7 +4,9 @@ Pokusy o rozchozeni Toradexu
 
 Boot z SD Karty:
 - zastavit uboot
+- strcit do Toradexu bud SD kartu nebo fleshku s operacnim systemem / Toradex Easy Installerem
 - ```run distro_bootcmd```
+- to si projede USBecka a karty, co najde prvni zacne bootovat
 - bacha muze to podelat bootcmd, cili tady je puvodni:
 
 ```
